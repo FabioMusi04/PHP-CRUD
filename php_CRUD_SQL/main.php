@@ -61,7 +61,7 @@
                         <td>$row[Price]</td>
                         <td>
                             <a class='btn btn-primary btn-sm' href='/PHP_CRUD_SQL/Functions.php/?Mode=Edit&ID=$row[ID]'>EDIT</a>
-                            <a class='btn btn-danger btn-sm' href='javascript: delete_user($row[ID]))'>DELETE</a>
+                            <a class='btn btn-danger btn-sm' href='javascript: delete_user($row[ID])'>DELETE</a>
                         </td>
                     </tr>
                     ";
